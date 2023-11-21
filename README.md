@@ -1,5 +1,5 @@
 # Simulation Kronos
-La simulation du vol de Kronos se retrouve dans le fichier SimulationKronos.ipynb . Elle contient une liste de tous les données nécessaires, des graphiques qui illustrent des simulations et une illustration de la fusée. Tous les données qui portent sur la masse ou la longueur des composantes sont tirés du fichier excel Bilan_masses_2023.xlsx . Il manque toujours des données sur le moteur puisque le fichier HYB30kpar.eng ne détient pas toutes les informations nécessaires pour la simulation. Aussi, les données ne sont pas à jour.
+La simulation du vol de Kronos se retrouve dans le fichier [SimulationKronos.ipynb](SimulationKronos.ipynb). Elle contient une liste de tous les données nécessaires, des graphiques qui illustrent des simulations et une illustration de la fusée. Tous les données qui portent sur la masse ou la longueur des composantes sont tirés du fichier excel [Bilan_masses_2023.xlsx](Bilan_masses_2023.xlsx). Il manque toujours des données sur le moteur puisque le fichier [HYB30kpar.eng](HYB30kpar.eng) ne détient pas toutes les informations nécessaires pour la simulation. Aussi, les données ne sont pas à jour.
 ## Simulation du vol
 Objectifs :
 * Faire le plot des différents simulations du vol de la fusée Kronos sur RocketPy
@@ -8,7 +8,7 @@ Objectifs :
 * Centraliser les données
 * Automatiser le chargement des données avec le google Drive du département
 ## Données à ajouter
-Pour savoir quelles données sont à ajouter, il faut se référer au fichier SimulationKronos.ipynb, dans les sections de chargement de fichiers. Tous les données ayant 0 comme valeur sont à mettre à jour avec les données courantes.
+Pour savoir quelles données sont à ajouter, il faut se référer au fichier [SimulationKronos.ipynb](SimulationKronos.ipynb), dans les sections de chargement de fichiers. Tous les données ayant 0 comme valeur sont à mettre à jour avec les données courantes.
 Les données à ajouter au moment d'écriture du README (21-11-2023) sont :
 * Burn time du moteur (s)
 * Inertie de la masse solide du moteur (liste en kg*m^2)
