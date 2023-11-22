@@ -10,11 +10,9 @@ Objectifs :
 ## Données à ajouter
 Pour savoir quelles données sont à ajouter, il faut se référer au fichier [SimulationKronos.ipynb](SimulationKronos.ipynb), dans les sections de chargement de fichiers. Tous les données ayant 0 comme valeur sont à mettre à jour avec les données courantes.
 Les données à ajouter au moment d'écriture du README (21-11-2023) sont :
-* Burn time du moteur (s)
 * Inertie de la masse solide du moteur (liste en kg*m^2)
 * Centre de masse de la masse solide du moteur (m)
 * Rayon du throat de l'injecteur (m)
-* Nombre de grains utilisées dans la fusée
 * Densité du grain (kg/m^3)
 * Hauteur initiale du grain (m)
 * La distance entre deux grains (s'il y a lieu) (m)
