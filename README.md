@@ -9,20 +9,15 @@ Objectifs :
 * Automatiser le chargement des données avec le google Drive du département
 ## Données à ajouter
 Pour savoir quelles données sont à ajouter, il faut se référer au fichier [SimulationKronos.ipynb](SimulationKronos.ipynb), dans les sections de chargement de fichiers. Tous les données ayant 0 comme valeur sont à mettre à jour avec les données courantes.
-Les données à ajouter au moment d'écriture du README (21-11-2023) sont :
-* Burn time du moteur (s)
-* Inertie de la masse solide du moteur (liste en kg*m^2)
+Les données à ajouter au moment d'écriture du README (26-11-2023) sont :
+* Masse oxydant liquide-gas selon le temps (kg selon s)
 * Centre de masse de la masse solide du moteur (m)
 * Rayon du throat de l'injecteur (m)
-* Nombre de grains utilisées dans la fusée
 * Densité du grain (kg/m^3)
 * Hauteur initiale du grain (m)
-* La distance entre deux grains (s'il y a lieu) (m)
 * Centre de masse du grain (m)
 * Date du launch
 * Longitude et latitude du spaceport (m)
-* Masse totale de la fusée sans le moteur (kg)
-* Inertie de la fusée (I11, I22 et I33)
 * Centre de masse de la fusée (m)
 * Ratio entre rayons du tip du nose cone
 * Position des ailettes (m)
