@@ -8,7 +8,7 @@ Objectifs :
 * Centraliser les données
 * Automatiser le chargement des données avec le google Drive du département
 ## Données à ajouter
-Pour savoir quelles données sont à ajouter, il faut se référer au fichier [SimulationKronos.ipynb](SimulationKronos.ipynb), dans les sections de chargement de fichiers. Tous les données ayant 0 comme valeur sont à mettre à jour avec les données courantes.
+Pour savoir quelles données sont à ajouter, il faut se référer au fichier [SimulationKronosV2.ipynb](SimulationKronosV2.ipynb), dans les sections de chargement de fichiers. Tous les données ayant 0 comme valeur sont à mettre à jour avec les données courantes.
 Les données à ajouter au moment d'écriture du README (15-01-2024) sont :
 * Inertie de la masse solide du moteur (liste en kg*m^2)
 * Centre de masse de la masse solide du moteur (m)
