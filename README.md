@@ -1,12 +1,13 @@
-# Simulation Kronos
-La simulation du vol de Kronos se retrouve dans le fichier [SimulationKronosV2.ipynb](SimulationKronosV2.ipynb). Elle contient une liste de tous les données nécessaires, des graphiques qui illustrent des simulations et une illustration de la fusée. Tous les données qui portent sur la masse ou la longueur des composantes sont tirés du fichier excel [Bilan_masses_2023.xlsx](Bilan_masses_2023.xlsx). Il manque toujours des données sur le moteur puisque le fichier [HYB30kpar.eng](HYB30kpar.eng) ne détient pas toutes les informations nécessaires pour la simulation. Aussi, les données ne sont pas à jour.
+# Simulation de vol de Kronos
+Ce projet est une simulation de vol de la fusée à moteur hybride Kronos. La simulation a été conçue à partir des données obtenues lors de la fabrication des composantes et des données d'une ancienne itération de la fusée. Afin de faciliter la lecture du code et la compréhension des modèles, Jupyter Notebook a été utilisé. Ainsi, les graphes s'affichent directement dans l'environnement de développement.
+
+La simulation du vol de Kronos se retrouve dans le fichier [SimulationKronosV2.ipynb](SimulationKronosV2.ipynb). Elle contient une liste de tous les données nécessaires, des graphiques qui illustrent des simulations et une illustration de la fusée. Tous les données qui portent sur la masse ou la longueur des composantes sont tirés du fichier excel [Bilan_masses_2023.xlsx](Bilan_masses_2023.xlsx). Il manque toujours des données sur le moteur puisque le fichier [HYB30kpar.eng](HYB30kpar.eng) ne détient pas toutes les informations nécessaires pour la simulation. Aussi, certaines données ne sont toujours pas à jour.
 ## Simulation du vol
 Objectifs :
 * Faire le plot des différents simulations du vol de la fusée Kronos sur RocketPy
 * Comparer les données calculées sur RocketPy aux données fournies sur RasAero II
 * Tout documenter
 * Centraliser les données
-* Automatiser le chargement des données avec le google Drive du département
 ## Données à ajouter
 Pour savoir quelles données sont à ajouter, il faut se référer au fichier [SimulationKronosV2.ipynb](SimulationKronosV2.ipynb), dans les sections de chargement de fichiers. Tous les données ayant 0 comme valeur sont à mettre à jour avec les données courantes.
 Les données à ajouter au moment d'écriture du README (15-01-2024) sont :
